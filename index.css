@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
+#header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#logoracionais{
+    width: 200px;
+    transition: 0.5s all;
+}
+#logoracionais:hover{
+    width: 220px;
+
+}
+.letra1{
+    color:white;
+    display: flex;
+    flex-direction: row;
+    
+}
+#informação{
+    margin-right: 80px;
+    border: none;
+}
+#Albuns{
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    border: solid none;
+    transition: 0.5s all;
+}
+#Albuns:hover{
+    font-size: 20px; 
+    color:crimson;
+    border:1px solid crimson;
+}
+#inicio{
+    padding: 10px;
+    transition: 0.5s all;
+}
+#inicio:hover{
+    font-size: 20px;
+    color:crimson;
+    border:1px solid crimson;
+}
+#contatos{
+    padding: 10px;
+    transition: 0.5s all;
+}
+#contatos:hover{
+    font-size: 20px;
+    color:crimson;
+    border:1px solid crimson;
+}
+#logoracionais1{
+  width: 100px;
+  transition: 0.5s all;
+}
+#logoracionais1:hover{
+    width: 250px;
+    border:3px solid crimson;
+}
+#imgemracio{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    background-color: rgb(255, 0, 0);
+    
+}
+#imagemraionais{
+    width: 600px;
+    
+}
+#historico{
+    
+  display: flex;
+  margin-top: 20px;
+ flex-direction: row-reverse;
+  width: 1200px;
+  flex-direction: center;
+  margin: 0 auto;
+ 
+}
+#biografia{
+   
+    width: 70%;
+    display: flex;
+    flex-direction: center;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+.biografia1{
+    margin: 0 auto;
+    padding: 10px;
+    color: white;
+
+}
+#logor{
+    width: 200px;
+    margin: 0 auto;
+   margin-top: 20px;
+}
+.logor{
+    display: flex;
+    flex-direction: center;
+}
+#Albuns1{
+    display: flex;
+  margin-top: 20px;
+  flex-direction: center;
+  margin: 0 auto;
+    color:white;
+  width: 1200px;
+  flex-direction: row;
+  align-items: center;
+    
+}
+#coresevalores{
+ flex-direction: column;
+ display: flex;
+ flex-direction: center;
+ width: 300px;
+ 
+ align-items: center;
+}
+#nomedoalbum{
+    font-size: 25px;
+}
+#anofaixa{
+    margin-top: -10px;
+    font-size: 15px;;
+}
+#racionaismcs25{
+    flex-direction: column;
+ display: flex;
+ flex-direction: center;
+ width: 300px;
+ 
+ align-items: center;
+
+ align-items: center;
+}
+#nomedoalbum1{
+    font-size: 25px;
+}
+#anofaixa1{
+    margin-top: -10px;
+    font-size: 15px;
+}
+#tanachuva{
+    flex-direction: column;
+ display: flex;
+ flex-direction: center;
+ width: 300px;
+ 
+ align-items: center;
+}
+#nomedoalbum2{
+   
+    
+    font-size: 20px;
+}
+#anofaixa2{
+    
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+#TrutasTretas{
+    flex-direction: column;
+    display: flex;
+    flex-direction: center;
+    width: 300px;
+   
+    align-items: center;
+}
+.TrutasTretas{
+    width: 210px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 190px;
+}
+#nomedoalbum3{
+   
+  
+    font-size: 20px;
+}
+#anofaixa3{
+    
+    margin-top: -10px;
+    font-size: 15px;
+}
+.borda:hover{
+    color: crimson;
+    border: 3px solid crimson;
+    border-radius: 20px;
+
+}
+.borda{
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#Albuns2{
+    display: flex;
+  margin-top: 20px;
+  flex-direction: center;
+  margin: 0 auto;
+  
+  width: 1200px;
+  flex-direction: row;
+  align-items: center;
+    
+}
+#nadacomoum{
+    flex-direction: column;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+#nomedoalbum4{
+    font-size: 19px;
+}
+#anofaixa4{ 
+    margin-top: -10px;
+    font-size: 15px;
+}
+#disco{
+    margin-top: -100px;
+    margin-left: 103px;
+    font-size: 25px;
+    color:  rgb(255, 255, 255);
+}
+#disco1{
+    margin-top: -100px;
+    margin-left: 90px;
+    font-size: 25px;
+}
+#nomedoalbum5{
+    font-size: 19.5px;
+}
+#anofaixa5{ 
+    margin-top: -10px;
+    font-size: 15px;
+}
+#TheBestOfRacionaisMCs{
+    flex-direction: column;
+    display: flex;
+    flex-direction: center;
+    width: 300px;
+   
+    align-items: center;
+}
+#SobrevivendonoInferno{
+    flex-direction: column;
+    display: flex;
+    flex-direction: center;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+}
+#Raio-XBrasil{
+    flex-direction: column;
+    display: flex;
+    flex-direction: center;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+}
+#Albuns3{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: center;
+    margin: 0 auto;
+   
+    width: 1200px;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+#EscolhaoSeuCaminho{
+    flex-direction: column;
+    display: flex;
+    flex-direction: center;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+}
+#HolocaustoUrbano{
+    flex-direction: column;
+    display: flex;
+    flex-direction: center;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+}
+#albumcoresvalores{
+    display: flex;
+    width: 1100px;
+    flex-direction:column;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 300px;
+}
+#coresevaloresletra{
+    font-size: 70px;
+    margin-top:80px;
+    position: relative;
+}
+#coresalbum{
+    margin-top: 20px;
+    border-top: 20px;
+    background-color: #ff9101d3;
+   
+}
+#album1{
+    margin-left: 15px;
+    margin-top: 80px;
+}
+.nomeevideo{
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+
+}
+.albumletras{
+    font-size: 25px;
+}
+.albumletras{
+    margin-left: 30px;
+    align-items: center;
+    display: flex;
+   
+}
+.albumaudio{
+   justify-content:end;
+}
+.layoutalbum{
+    display: flex;
+    flex-direction: column;
+    
+}
+.CoreseValores1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
