@@ -166,7 +166,7 @@ body{
     margin-top: -10px;
     font-size: 15px;
 }
-#tanachuva{
+#aovivo{
     flex-direction: column;
  display: flex;
  flex-direction: center;
@@ -247,6 +247,7 @@ body{
 #anofaixa4{ 
     margin-top: -10px;
     font-size: 15px;
+    color: rgb(255, 255, 255);
 }
 #disco{
     margin-top: -100px;
@@ -265,6 +266,7 @@ body{
 #anofaixa5{ 
     margin-top: -10px;
     font-size: 15px;
+    color: rgb(255, 255, 255);
 }
 #TheBestOfRacionaisMCs{
     flex-direction: column;
@@ -318,58 +320,22 @@ body{
     height: 300px;
     align-items: center;
 }
-#albumcoresvalores{
-    display: flex;
-    width: 1100px;
-    flex-direction:column;
-    color: white;
-    background-color: rgb(53, 53, 53);
-    margin: 0 auto;
-    border-radius: 20px;
-    margin-top: 300px;
-}
-#coresevaloresletra{
-    font-size: 70px;
-    margin-top:80px;
-    position: relative;
-}
-#coresalbum{
-    margin-top: 20px;
-    border-top: 20px;
-    background-color: #ff9101d3;
-   
-}
-#album1{
-    margin-left: 15px;
-    margin-top: 80px;
-}
-.nomeevideo{
-    flex-direction: row;
-    display: flex;
-    padding: 20px;
 
-}
-.albumletras{
-    font-size: 25px;
-}
-.albumletras{
-    margin-left: 30px;
+.estiloalbum{
+    width: 58rem;
+    height: 56rem;
+    display: flex;
+    flex-direction: center;
     align-items: center;
+    margin: 0 auto; 
+    margin-top: 10rem;
+}
+.estiloalbum1{
+    width: 58rem;
+    height: 36rem;
     display: flex;
-   
+    flex-direction: center;
+    align-items: center;
+    margin: 0 auto; 
+    margin-top: 10rem;
 }
-.albumaudio{
-   justify-content:end;
-}
-.layoutalbum{
-    display: flex;
-    flex-direction: column;
-    
-}
-.CoreseValores1{
-    display: flex;
-    flex-direction: row;
-    margin-top: 20px;
-    justify-content: space-between;
-}
-
