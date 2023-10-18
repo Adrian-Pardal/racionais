@@ -132,13 +132,14 @@ body{
   width: 1200px;
   flex-direction: row;
   align-items: center;
-    
+  justify-content: space-between;  
 }
 #coresevalores{
  flex-direction: column;
  display: flex;
  flex-direction: center;
- width: 300px;
+ width: 18,75rem;
+ padding: 1rem;
  
  align-items: center;
 }
@@ -153,11 +154,11 @@ body{
     flex-direction: column;
  display: flex;
  flex-direction: center;
- width: 300px;
- 
+ width: 18,75rem;
+ padding: 1rem;
  align-items: center;
 
- align-items: center;
+ 
 }
 #nomedoalbum1{
     font-size: 25px;
@@ -170,8 +171,8 @@ body{
     flex-direction: column;
  display: flex;
  flex-direction: center;
- width: 300px;
- 
+ width: 18,75rem;
+ padding: 1rem;
  align-items: center;
 }
 #nomedoalbum2{
@@ -189,8 +190,8 @@ body{
     flex-direction: column;
     display: flex;
     flex-direction: center;
-    width: 300px;
-   
+    width: 18,75rem;
+    padding: 1rem;
     align-items: center;
 }
 .TrutasTretas{
@@ -224,22 +225,23 @@ body{
 
 #Albuns2{
     display: flex;
-  margin-top: 20px;
+  margin-top: 3rem;
   flex-direction: center;
   margin: 0 auto;
-  
+  padding: 1rem;
   width: 1200px;
   flex-direction: row;
   align-items: center;
-    
+  justify-content: space-between;  
 }
 #nadacomoum{
     flex-direction: column;
     display: flex;
     flex-direction: center;
     align-items: center;
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 19rem;
+    padding: 1rem;
 }
 #nomedoalbum4{
     font-size: 19px;
@@ -250,10 +252,10 @@ body{
     color: rgb(255, 255, 255);
 }
 #disco{
-    margin-top: -100px;
+    margin-top: -7.3rem;
     margin-left: 103px;
     font-size: 25px;
-    color:  rgb(255, 255, 255);
+    color:  rgb(220, 20, 60);
 }
 #disco1{
     margin-top: -100px;
@@ -272,35 +274,38 @@ body{
     flex-direction: column;
     display: flex;
     flex-direction: center;
-    width: 300px;
-   
+    width: 18.75rem;
+    padding: 1rem;
     align-items: center;
 }
 #SobrevivendonoInferno{
     flex-direction: column;
     display: flex;
     flex-direction: center;
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 19rem;
     align-items: center;
+    padding: 1rem;
+    margin-top: 0.5rem;
 }
 #Raio-XBrasil{
     flex-direction: column;
     display: flex;
     flex-direction: center;
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 19rem;
     align-items: center;
+    padding: 1rem;
 }
 #Albuns3{
     display: flex;
-    margin-top: 20px;
+    margin-top: 2rem;
     flex-direction: center;
     margin: 0 auto;
    
     width: 1200px;
     flex-direction: row;
-    align-items: center;
+    align-items: ;
     color: white;
     justify-content: center;
 }
@@ -308,17 +313,19 @@ body{
     flex-direction: column;
     display: flex;
     flex-direction: center;
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
     align-items: center;
+    padding: 1rem;
 }
 #HolocaustoUrbano{
     flex-direction: column;
     display: flex;
     flex-direction: center;
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
     align-items: center;
+    padding: 1rem;
 }
 
 .estiloalbum{
